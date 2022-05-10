@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CumCumSite</title>
+    <style>
+        a{
+            font-weight:bolder;
+        }
+        ul{
+            list-style-type:none;
+        }
+        li{
+            margin:0px;
+            padding:5px;
+        }
+        .left-contents{
+           width:400px;
+           height:250px;
+           
+           margin:50px 50px;
+           padding:10px 15px;
+        }
+        .for-scroll{
+            overflow:hidden;
+        }
+    </style>
+</head>
+<body>
+    <div>사이트명</div>
+    <div>전정대, 당신의 자격증은?</div>
+    <div id="for-scroll" class="left-contents">
+        <ul>
+            <li><a>정보처리기사</a><p>프로그래밍</p></li>
+            <li><a><p>리눅스마스터</p></a><p>시스템</p></li>
+            <li><a>OCP</a><p>데이터베이스</p></li>
+        </ul>
+    </div>
+</body>
+</html>
