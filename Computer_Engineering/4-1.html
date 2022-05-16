@@ -17,29 +17,41 @@
             padding:5px;
         }
         .left-contents{
-           width:400px;
-           height:250px;
-           
-           margin:50px 50px;
-           padding:10px 15px;
+            display: inline-block;
+            width:600px;
+            height:480px;
+            padding: 10px 0px;
+
+            border: 2px solid blue;
+            overflow:auto;
         }
-        .for-scroll{
-            overflow:hidden;
+        .main-big-square{
+            width: 1300px;
+            height: 500px;
+            position:absolute;
+
+            margin:150px 50px;
+            padding:0px 0px;
+
+            background-color: rgba(189, 189, 189, 0.208);
+            border: 2px solid gray;
         }
     </style>
 </head>
 <body>
     <div>사이트명</div>
     <div>전정대, 당신의 자격증은?</div>
-    <div id="for-scroll" class="left-contents">
-        <ul>
-            <li><a>정보처리기사</a><p>프로그래밍</p></li>
-            <li><a><p>리눅스마스터</p></a><p>시스템</p></li>
-            <li><a>OCP</a><p>데이터베이스</p></li>
-            <li><a>정보보안기사</a><p>보안</p></li>
-            <li><a>게임프로그래밍전문가</a><p>게임</p></li>
-            <li><a>빅데이터분석기사</a><p>빅데이터<p></li>
-        </ul>
+    <div class="main-big-square">
+        <div class="left-contents">
+            <ul>
+                <li><a>정보처리기사</a><p>프로그래밍</p></li>
+                <li><a><p>리눅스마스터</p></a><p>시스템</p></li>
+                <li><a>OCP</a><p>데이터베이스</p></li>
+                <li><a>정보보안기사</a><p>보안</p></li>
+                <li><a>게임프로그래밍전문가</a><p>게임</p></li>
+                <li><a>빅데이터분석기사</a><p>빅데이터<p></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
