@@ -10,31 +10,55 @@
             font-weight:bolder;
         }
         ul{
+            padding: 0px 20px;
             list-style-type:none;
         }
         li{
-            margin:0px;
+            margin:5px;
             padding:5px;
-        }
-        .left-contents{
-            display: inline-block;
-            width:600px;
-            height:480px;
-            padding: 10px 0px;
 
-            border: 2px solid blue;
-            overflow:auto;
+            border-bottom:1px solid gray;
         }
+        
         .main-big-square{
             width: 1300px;
             height: 500px;
             position:absolute;
+            left: 50%;
 
-            margin:150px 50px;
+            margin:150px 0px 0px -650px;
             padding:0px 0px;
 
             background-color: rgba(189, 189, 189, 0.208);
             border: 2px solid gray;
+        }
+        .main-common{
+            display: inline-block;
+            width:600px;
+            height:500px;
+            
+            border:1px solid blue;
+            overflow:auto;
+        }
+
+        .left-contents{
+            width:500px;
+            height:480px;
+            padding:7px;
+
+            border: 2px solid blue;
+        }
+        .right-contents{
+            width:758px;
+            height:480px;
+            padding:7px;
+
+            border: 2px solid red;
+        }
+
+        .area-font{
+            font-size: 13px;
+            line-height: 3px;
         }
     </style>
 </head>
@@ -42,16 +66,17 @@
     <div>사이트명</div>
     <div>전정대, 당신의 자격증은?</div>
     <div class="main-big-square">
-        <div class="left-contents">
+        <div class="left-contents main-common">
             <ul>
-                <li><a>정보처리기사</a><p>프로그래밍</p></li>
-                <li><a><p>리눅스마스터</p></a><p>시스템</p></li>
-                <li><a>OCP</a><p>데이터베이스</p></li>
-                <li><a>정보보안기사</a><p>보안</p></li>
-                <li><a>게임프로그래밍전문가</a><p>게임</p></li>
-                <li><a>빅데이터분석기사</a><p>빅데이터<p></li>
+                <li><p class="area-font">프로그래밍</p><p><a>정보처리기사</a></p></li>
+                <li><p class="area-font">시스템</p><p><a>리눅스마스터</a></p></li>
+                <li><p class="area-font">데이터베이스</p><p><a>OCP</a></p></li>
+                <li><p class="area-font">보안</p><p><a>정보보안기사</a></p></li>
+                <li><p class="area-font">게임</p><p><a>게임프로그래밍전문가</a></p></li>
+                <li><p class="area-font">빅데이터</p><p><a>빅데이터분석기사</a></p></li>
             </ul>
         </div>
+        <div class="right-contents main-common"></div>
     </div>
 </body>
 </html>
