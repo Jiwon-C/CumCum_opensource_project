@@ -2,7 +2,6 @@ function gopage(){
     var e = document.getElementById("grade");
     var selectGrade=e.options[e.selectedIndex].value;
 
-    alert(selectGrade);
     if(selectGrade=="1-1"){
         window.location.href="main_site_CE_1_1.html";
     }
