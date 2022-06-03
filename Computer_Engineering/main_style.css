@@ -74,3 +74,10 @@ li{
 .subject{
     line-height: 10px;
 }
+
+.upstage{
+  color: #fff;
+  border:10px solid #B91A4D;
+  background-color:#B91A4D;
+  text-align: center;
+}
