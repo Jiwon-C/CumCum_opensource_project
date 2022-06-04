@@ -1,6 +1,6 @@
 # CumCum_opensource_project
 
-# 학과별 자격증 추천
+# 컴퓨터공학과 자격증 추천
 ### contributor
 |김도영|오지원|신보규|
 |------|---|---|
@@ -9,9 +9,9 @@
 
 
 ### 서비스 설명
- 학과별 자격증 추천 서비스는 충북대학교 컴퓨터공학과 학생을 대상으로 하여 학과와 관련된 자격증을 추천해주는 웹 사이트입니다.
+ 해당 자격증 추천 서비스는 충북대학교 컴퓨터공학과 학생을 대상으로 하여 학과와 관련된 자격증을 추천해주는 웹 사이트입니다.
 
-1. 사용자에게 자신의 학과와 학년, 학기를 목록 상자에서 선택하게 합니다. 선택된 정보로 해당 학과가 그 시기에 취득할 수 있는 자격증들을 추천하고 각각의 자격증에 대한 정보를 제공합니다.
+1. 사용자에게 자신이 재학 중인 학년, 학기를 목록 상자에서 선택하게 합니다. 선택된 정보로 그 시기에 취득할 수 있는 자격증들을 추천하고 각각의 자격증에 대한 정보를 제공합니다.
 
 2. 자격증에 대한 정보는 공식 사이트, 유효 기간, 개요, 응시료, 합격기준, 검정 방법, 시험 과목, 시험 시간 등이 있습니다.
 
@@ -33,9 +33,10 @@
 
 -----
 ### 설치 방법
-
-Github에서 해당 레포지토리의 우측 상단에 'Code'라고 적힌 버튼을 누른 후, 링크를 복사하여 Putty, Git Bash 등을 통해 '$ git clone 링크'의 명령어로 파일들을 클론 받습니다.
-
+```
+Github에서 해당 레포지토리의 우측 상단에 'Code'라고 적힌 버튼을 누른 후,
+링크를 복사하여 Putty, Git Bash 등을 통해 '$ git clone 링크'의 명령어로 파일들을 클론 받습니다.
+```
 ![image](https://user-images.githubusercontent.com/74997144/171998245-a1691e46-bc36-4b87-a6b2-e1e6b520e962.png)
 
 
@@ -57,4 +58,22 @@ Putty, Git Bash 등 git을 이용할 수 있는 프로그램 필요
 The MIT License (MIT)
 
 Copyright (c) 2022 CumCum
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 ```
