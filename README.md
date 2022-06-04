@@ -25,16 +25,29 @@
 
 -----
 ### 샘플
-웹화면
+
+웹 화면
 
 ![opensource](https://user-images.githubusercontent.com/74997217/171997958-0df5d04d-ff69-4929-b571-4fbf8cbf6878.gif)
 
 
 -----
+### 설치 방법
+
+Github에서 해당 레포지토리의 우측 상단에 'Code'라고 적힌 버튼을 누른 후, 링크를 복사하여 Putty, Git Bash 등을 통해 '$ git clone 링크'의 명령어로 파일들을 클론 받는다.
+![image](https://user-images.githubusercontent.com/74997144/171998245-a1691e46-bc36-4b87-a6b2-e1e6b520e962.png)
+
+
+-----
+### 실행 방법
+```
+Github에서 해당 레포지토리를 클론 받은 후, CumCum_opensource_project/Final 폴더에서 'homepage.html' 파일을 눌러 실행
+```
+
+-----
 ### 의존성
 ```
-Github에서 해당 레포지토리를 클론 받은 후, Final 폴더에서 'homepage.html' 파일을 눌러 실행
-
+Putty, Git Bash 등 git을 이용할 수 있는 프로그램
 ```
 
 ----
