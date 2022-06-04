@@ -74,3 +74,9 @@ li{
 .subject{
     line-height: 10px;
 }
+
+.div-select:hover {
+    background-color: rgba(143, 143, 143, 0.314);
+    border-style: dashed;
+    border-color:rgba(110, 110, 110, 0.722);
+}
