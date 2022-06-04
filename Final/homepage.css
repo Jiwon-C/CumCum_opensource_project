@@ -1,0 +1,43 @@
+.upstage{
+    color: #fff;
+    border:10px solid #B91A4D;
+    background-color:#B91A4D;
+    text-align: center;
+  }
+  
+  .middlestage1{
+    font-size: x-large;
+    font-weight:bolder;  
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .middlestage2{
+    text-align: center;
+    margin-bottom:40px;
+    color:#8c8c8c; 
+  }
+  
+  .icon-style{
+     text-align: center;
+    margin-bottom:40px;
+  }
+  
+  .input-box{
+    width:584px;
+    height:30px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    padding-left:15px;
+    padding-right:40px;
+  }
+  
+  .search-icon{
+    position: relative;
+    right:40px;
+  }
+  
+  .selectbox{
+    text-align: center;
+  }
