@@ -5,9 +5,7 @@
 |김도영|오지원|신보규|
 |------|---|---|
 |[Doyoung01](https://github.com/Doyoung01)|[Jiwon-C](https://github.com/Jiwon-C)|[tlsqhrb](https://github.com/tlsqhrb)|
-|<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:jjyo0108@naver.com"/>|
-<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:hi2777@naver.com"/>|
-<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:tlsqhrb123@naver.com"/>|
+|<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:jjyo0108@naver.com"/>|<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:hi2777@naver.com"/>|<img src="https://img.shields.io/badge/Naver-brightgreen?style=flat-square&logo=Naver&logoColor=white&link=mailto:tlsqhrb123@naver.com"/>|
 
 
 ### 서비스 설명
