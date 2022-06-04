@@ -80,3 +80,10 @@ li{
     border-style: dashed;
     border-color:rgba(110, 110, 110, 0.722);
 }
+
+.upstage{
+  color: #fff;
+  border:10px solid #B91A4D;
+  background-color:#B91A4D;
+  text-align: center;
+}
